@@ -81,6 +81,49 @@ body {
     padding-left: 30px;
 }
 
-.main-container-image-one img {
+.main-container-image-one {
+    background-image: url('https://res.cloudinary.com/djyotwnhe/image/upload/v1732246772/Picsart_24-11-22_09-08-45-877_gxrwrl.jpg');
+    background-size: cover;
     height: 100vh;
+    width: 55vw;
+    padding: 170px 0px 150px 0px;
+    margin: 0px;
+}
+
+.new-technology-element {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    width: 200px;
+    font-size: 18px;
+    padding: 5px;
+    margin-left: 185px;
+}
+
+
+.main-container-image-one-heading {
+    color: black;
+    font-size: 50px;
+    text-align: justify;
+}
+
+.main-container-image-one-description {
+    color: #595959;
+    text-align: justify;
+}
+
+
+.button-imge {
+    margin: 10px;
+    width: 200px;
+    font-size: 20px;
+}
+
+.main-container-image-two {
+    background-image: url('https://res.cloudinary.com/djyotwnhe/image/upload/v1732257014/Screenshot_2024-11-22_115351_rj9bh2.png');
+    background-size: cover;
+    height: 100vh;
+    width: 50vw;
+    margin: 0px;
 }
