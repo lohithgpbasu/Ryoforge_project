@@ -159,3 +159,46 @@ body {
     height: 80vh;
     width: 50vw;
 }
+
+.main-section-4-image-left {
+    background-image: url('https://res.cloudinary.com/djyotwnhe/image/upload/v1732385625/Picsart_24-11-23_23-42-42-272_gewtpp.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 50px;
+}
+
+.main-heading {
+    font-weight: 700;
+    color: #121212;
+    text-align: justify;
+}
+
+.description {
+    color: #6b6b6b;
+    text-align: justify;
+}
+
+.alert-box {
+    background-color: #fff0eb;
+    border: 1px solid #ffcc99;
+    color: #ff6600;
+    border-radius: 8px;
+}
+
+.box-description {
+    color: #6b6b6b;
+    text-align: justify;
+}
+
+.cta-button {
+    background-color: #0066ff;
+    color: #ffffff;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #0055cc;
+}
