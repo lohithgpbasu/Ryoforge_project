@@ -202,3 +202,139 @@ body {
 .cta-button:hover {
     background-color: #0055cc;
 }
+
+.section-heading {
+    font-weight: 700;
+    color: #121212;
+}
+
+.subheading {
+    color: #6b6b6b;
+    margin-bottom: 40px;
+}
+
+.review-card {
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.stars {
+    color: #ffcc00;
+}
+
+.review-text {
+    font-size: 1rem;
+    color: #6b6b6b;
+    margin: 20px 0;
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.reviewer-name {
+    font-weight: 600;
+    color: #121212;
+}
+
+.reviewer-role {
+    font-size: 0.9rem;
+    color: #6b6b6b;
+}
+
+.btn-stories {
+    background-color: #0066ff;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-stories:hover {
+    background-color: #0055cc;
+}
+
+/* Background styling for the banner */
+.banner-section {
+    background-color: #0066ff;
+    color: white;
+    padding: 50px 0;
+    text-align: left;
+    position: relative;
+}
+
+/* Subtle grid pattern overlay */
+.banner-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 1px
+        ),
+        linear-gradient(
+            90deg,
+            rgba(255, 255, 255, 0.1) 1px,
+            transparent 1px
+        );
+    background-size: 40px 40px;
+    z-index: 1;
+}
+
+.banner-content {
+    position: relative;
+    z-index: 2;
+}
+
+.banner-heading {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.btn-banner {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.btn-primary-custom {
+    background-color: white;
+    color: #0066ff;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary-custom:hover {
+    background-color: #e6e6e6;
+    color: #0055cc;
+}
+
+.btn-secondary-custom {
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-secondary-custom:hover {
+    background-color: white;
+    color: #0066ff;
+}
