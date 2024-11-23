@@ -338,3 +338,79 @@ body {
     background-color: white;
     color: #0066ff;
 }
+
+.footer {
+    background-color: #ffffff;
+    padding: 40px 0;
+    color: #555555;
+    font-size: 14px;
+}
+
+.footer-logo {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.footer-section h5 {
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.footer-link {
+    color: #555555;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.footer-link:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.btn-footer {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px 15px;
+    background-color: #f5f5f5;
+    color: #000;
+    border-radius: 6px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-footer:hover {
+    background-color: #e0e0e0;
+}
+
+.footer-divider {
+    border-top: 1px solid #e0e0e0;
+    margin: 30px 0;
+}
+
+.footer-bottom {
+    font-size: 12px;
+    color: #888888;
+    text-align: center;
+}
+
+.footer-bottom a {
+    color: #888888;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    color: #000;
+}
+
+.badge-hiring {
+    font-size: 10px;
+    color: #fff;
+    background-color: #ff6f61;
+    padding: 3px 6px;
+    border-radius: 6px;
+    margin-left: 8px;
+}
