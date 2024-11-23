@@ -131,5 +131,31 @@ body {
 .total-users-container {
     background-color: white;
     width: 100vw;
-    
+}
+
+.main-section-3-text-container {
+    margin-left: 295px;
+}
+
+.main-section-3-heading {
+    text-align: justify;
+    color: black;
+}
+
+.main-section-3-description {
+    text-align: justify;
+    color: #808080;
+    margin-left: 35px;
+}
+
+.main-section-3-image {
+    margin-right: 20px;
+    border: 1px solid #e6e6e6;
+    border-radius: 10px;
+}
+
+
+.resume-build-section {
+    height: 80vh;
+    width: 50vw;
 }
